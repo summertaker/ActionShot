@@ -1,0 +1,7 @@
+## Interface: 70300
+## Title: ActionShot
+## Title-koKR: 액션샷
+## Author: Summertaker
+## Version: 1.0
+
+ActionShot.lua
