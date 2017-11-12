@@ -1,6 +1,8 @@
 ## Interface: 70300
 ## Title: ActionShot
 ## Title-koKR: 액션샷
+## Notes: Takes Action Screenshot.
+## Notes-koKR: 액션 스크린샷을 찍습니다.
 ## Author: Summertaker
 ## Version: 1.0
 

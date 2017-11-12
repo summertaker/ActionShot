@@ -9,6 +9,7 @@ ActionShot:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED"); -- 주문이 성공했을 
 ActionShot:SetScript("OnEvent", function(Self, event, ...)
     if (event == "UNIT_SPELLCAST_SENT") then
 	    local spellName = select(2, ...); -- 주문 이름 가져오기
+	    --print(spellName);
         if (spellName == "돌진") then
         	C_Timer.After(0.5, Screenshot);
         elseif (spellName == "영웅의 도약") then
@@ -16,6 +17,7 @@ ActionShot:SetScript("OnEvent", function(Self, event, ...)
         end
     elseif (event == "UNIT_SPELLCAST_SUCCEEDED") then
 	    local spellName = select(2, ...); -- 주문 이름 가져오기
+    	--print(spellName);
         if (spellName == "거인의 강타") then
         	C_Timer.After(0.1, Screenshot);
         	--Screenshot();
